@@ -1,0 +1,92 @@
+#home {
+    background-color: #FDFBD4;
+    padding-top: 90px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.salute {
+    color: #BDB96A;
+    font-weight: 500;
+}
+
+.i-am {
+    font-weight: bolder;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-student {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.cv-button, 
+.explore-button {
+    height: 55px;
+    width: 210px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+
+.cv-button {
+    background-color: #BDB96A;
+    border: 1px;
+    color: white;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.5); 
+    margin-right: 15px;
+}
+
+.cv-button:hover {
+    background-color: #8f8a2f;
+}
+
+.explore-button {
+    background-color: #CCC541;
+    border: 1px solid #BDB96A;
+    color: white;
+    transition: background-color, color 0.5s;
+}
+
+.explore-button:hover {
+    background-color: #8f8b44;
+    color: white;
+    opacity: 0.8;
+}
+
+.cv-button:active,
+.explore-button:active {
+    box-shadow: inset 3px 5px 5px rgba(0,0,0,0.5);
+}
+
+.home-right .person-pic {
+    height: 650px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 1480px) {
+    .home-right .person-pic {
+        height: 550px;
+    }
+}
+
+
+@media (max-width: 970px) {
+    #home {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .home-right .person-pic {
+        height: 400px;
+    }
+}
