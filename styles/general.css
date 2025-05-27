@@ -12,8 +12,20 @@ body {
     padding-top: 130px;
 }
 
-section {
-    height: 100vh;
+#home {
+    background-color: lightblue;
+}
+#about {
+    background-color: grey;
+}
+#skills {
+    background-color: lightblue;
+}
+#projects {
+    background-color: grey;
+}
+#contact {
+    background-color: lightblue;
 }
 
 /* h2 {

@@ -1,8 +1,6 @@
-#skills {
-    background-color: #FDFBD4;
-}
-
 .skill-container {
+    padding-left: 20px;
+    padding-right: 20px;
     text-transform: uppercase;
     display: flex;
     flex-direction: row;
@@ -238,18 +236,19 @@
 }
 
 
-@media (max-width: 790px) {
+@media (max-width: 800px) {
     .design {
         width: 200px;
     }
 }
 
-@media (max-width: 645px) {
+@media (max-width: 690px) {
     #skills {
-        height: 1800px;
+        height: 1300px;
     }
-
+    
     .skill-container {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 200px 200px;
     }
 }
