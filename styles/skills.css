@@ -1,3 +1,11 @@
+#skills {
+    height: 900px;
+}
+
+.skills {
+    padding-top: 120px;
+}
+
 .skill-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -200,6 +208,11 @@
     }
 }
 
+@media (max-width: 1700px) {
+    .skills {
+        padding-top: 20px;
+    }
+}
 
 @media (max-width: 1550px) {
     .design {
@@ -246,7 +259,7 @@
     #skills {
         height: 1300px;
     }
-    
+
     .skill-container {
         display: grid;
         grid-template-columns: 200px 200px;
