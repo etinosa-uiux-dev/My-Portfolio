@@ -17,11 +17,12 @@
 }
 
 .design {
+    background-color: #f8f5c5;
     width: 500px;
     margin: 60px auto;
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.22);
 }
 
 .design h4 {
