@@ -12,6 +12,10 @@ body {
     padding-top: 130px;
 }
 
+section {
+    border-bottom: 1px solid #dfd969;
+}
+
 /* h2 {
     position: relative;
     font-size: 80px;

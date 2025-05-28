@@ -16,13 +16,13 @@
 
 .i-am {
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 3.75rem;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .p-student {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 20px;
@@ -30,8 +30,8 @@
 
 .cv-button, 
 .explore-button {
-    height: 55px;
-    width: 210px;
+    height: 3.4275rem;
+    width: 13.125rem;
     border-radius: 5px;
     margin-bottom: 10px;
     cursor: pointer;
@@ -67,15 +67,20 @@
 }
 
 .home-right .person-pic {
-    height: 650px;
+    height: 40.625rem;
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-right .person-pic:hover {
+    transform: scale(1.03);
 }
 
 
 @media (max-width: 1480px) {
     .home-right .person-pic {
-        height: 550px;
+        height: 34.375rem;
     }
 }
 
@@ -87,6 +92,6 @@
     }
 
     .home-right .person-pic {
-        height: 400px;
+        height: 25rem;
     }
 }
