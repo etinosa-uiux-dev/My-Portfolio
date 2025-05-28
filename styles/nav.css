@@ -6,7 +6,7 @@
 
 body {
     --color1: white;
-    --color2: rgb(3, 39, 48);
+    --color2: rgb(255, 255, 255);
 }
 
 .nav-bar {
@@ -29,6 +29,16 @@ body {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.top-name:hover {
+    transform: scale(1.2);
+}
+
+.top-name a {
+    color: white;
+    text-decoration: none;
 }
 
 .menu {
@@ -47,6 +57,11 @@ body {
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
+    transition: transform 0.2s ease-in-out;
+}
+
+.menu li a:hover {
+    transform: scale(1.2);
 }
 
 .menu li a::after {
@@ -83,6 +98,10 @@ body {
     right: 20px;
 }
 
+.close-menu:hover {
+    transform: scale(1.2);
+}
+
 #check {
     display: none;
 }
@@ -111,6 +130,11 @@ body {
 
     .menu li a {
         padding: 10px;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .menu li a:hover {
+        transform: scale(1.2);
     }
 
     .open-menu , .close-menu {
