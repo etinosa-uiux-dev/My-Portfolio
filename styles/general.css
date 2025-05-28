@@ -12,22 +12,6 @@ body {
     padding-top: 130px;
 }
 
-#home {
-    background-color: lightblue;
-}
-#about {
-    background-color: grey;
-}
-#skills {
-    background-color: lightblue;
-}
-#projects {
-    background-color: grey;
-}
-#contact {
-    background-color: lightblue;
-}
-
 /* h2 {
     position: relative;
     font-size: 80px;

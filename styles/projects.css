@@ -1,20 +1,20 @@
 .projects {
+    padding-top: 120px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 100vh;
+    height: 1000px;
 }
   
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
   
 .section-title {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 50px;
-    color: #111;
 }
   
 .projects-grid {
@@ -22,7 +22,7 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
 }
-  
+
 .project-card {
     background-color: #fff;
     border-radius: 20px;
@@ -32,6 +32,16 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card a {
+    color: black;
+    text-decoration: none;
 }
   
 .project-image {
@@ -43,7 +53,6 @@
 .project-title {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #222;
     margin-top: 10px;
 }
   

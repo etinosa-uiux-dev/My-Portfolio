@@ -41,20 +41,18 @@
 .cv-button {
     background-color: #BDB96A;
     border: 1px;
-    color: white;
     box-shadow: 0px 3px 5px rgba(0,0,0,0.5); 
     margin-right: 15px;
 }
 
 .cv-button:hover {
     background-color: #8f8a2f;
+    color: white;
 }
 
 .explore-button {
     background-color: #CCC541;
-    border: 1px solid #BDB96A;
-    color: white;
-    transition: background-color, color 0.5s;
+    border: 2px solid #BDB96A;
 }
 
 .explore-button:hover {
