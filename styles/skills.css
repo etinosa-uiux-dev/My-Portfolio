@@ -178,7 +178,7 @@
 }
 
 .github {
-    width: 50%;
+    width: 70%;
     animation: github 3s;
 }
 
@@ -205,7 +205,7 @@
         width: 0%;
     }
     100% {
-        width: 50%;
+        width: 70%;
     }
 }
 
