@@ -1,0 +1,136 @@
+.contact {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    height: 900px;
+}
+
+.in-touch {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.contact-left {
+    background-color: #f8f5c5;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.22);
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-info-container {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-info-container img {
+    width: 65px;
+    border-radius: 50px;
+    width: 60px;
+}
+.my-info-container p {
+    width: 370px;
+    padding: 5px;
+    margin-left: 20px;
+    border: 1px solid rgb(3, 39, 48);
+    border-radius: 3px;
+    flex: 1;
+}
+
+.contact-input {
+    height: 50px;
+    width: 450px;
+    border-radius: 7px;
+    border: 1px solid rgb(3, 39, 48);
+    padding-left: 25px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.contact-input:hover,
+.contact-message:hover {
+    border: 3px solid #BDB96A;
+}
+
+.contact-input:focus,
+.contact-message:focus {
+    border: 3px solid darkcyan;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.contact-message {
+    height: 100px;
+    width: 450px;
+    border-radius: 7px;
+    border: 1px solid rgb(3, 39, 48);
+    padding-left: 25px;
+    padding-top: 15px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    column-count: 50;
+}
+
+.contact-submit {
+    background-color: #BDB96A;
+    font-weight: 600;
+    height: 45px;
+    width: 215px;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+
+.contact-submit:hover {
+    background-color: #8f8a2f;
+    color: white;
+}
+
+.contact-submit:active {
+    opacity: 0.7;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.contact-right h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 700px;
+}
+
+@media (max-width: 1450px) {
+    iframe {
+        width: 480px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 1400px;
+    }
+}

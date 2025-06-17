@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #FDFBD4;
+    color: black;
+    padding-top: 130px;
+}
+
+section {
+    border-bottom: 1px solid #dfd969;
+}
+
+/* h2 {
+    position: relative;
+    font-size: 80px;
+    font-weight: bolder;
+    padding-top: 110px;
+    padding-left: 220px;
+    margin-bottom: 80px;
+}
+
+h2::before {
+    content: "_";
+    background: linear-gradient(90deg,rgb(37, 37, 25) 42%, rgba(204, 197, 65, 1) 68%);
+}
+
+@media (min-width: 785px) {
+    h2::after {
+        content: "";
+        position: absolute;
+        top: 80%;
+        right: 10%;
+        width: 40%;
+        height: 2px;
+        background: linear-gradient(90deg,rgb(37, 37, 25) 42%, rgba(204, 197, 65, 1) 68%);
+      }
+}
