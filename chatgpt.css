@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: 'Arial', sans-serif;
     background-color: #fdfcfb;
@@ -72,4 +73,80 @@ body {
     border-radius: 12px;
     color: #333;
 }
+=======
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfcfb;
+    margin: 0;
+    padding: 0;
+}
+  
+.projects {
+    padding: 80px 20px;
+    background-color: #fdfcfb;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #111;
+}
+  
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+  
+.project-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.project-image {
+    height: 150px;
+    background-color: #eee;
+    border-radius: 12px;
+}
+  
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #222;
+    margin-top: 10px;
+}
+  
+.project-description {
+    font-size: 0.95rem;
+    color: #555;
+}
+  
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+  
+.tech-tags span {
+    background-color: #f1f1f1;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    color: #333;
+}
+>>>>>>> bd5c0b0f27c35ba8032e6b8ba2f498653f5d9e88
   

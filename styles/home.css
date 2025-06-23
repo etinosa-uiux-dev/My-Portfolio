@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home {
     padding-top: 130px;
     padding-left: 20px;
@@ -94,4 +95,102 @@
     .home-right .person-pic {
         height: 25rem;
     }
+=======
+.home {
+    padding-top: 130px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.salute {
+    color: #BDB96A;
+    font-weight: 500;
+}
+
+.i-am {
+    font-weight: bolder;
+    font-size: 3.75rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-student {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.cv-button, 
+.explore-button {
+    height: 3.4275rem;
+    width: 13.125rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+
+.cv-button {
+    background-color: #BDB96A;
+    border: 1px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+    margin-right: 15px;
+}
+
+.cv-button:hover {
+    background-color: #8f8a2f;
+    color: white;
+}
+
+.explore-button {
+    background-color: #CCC541;
+    border: 2px solid #BDB96A;
+}
+
+.explore-button:hover {
+    background-color: #8f8b44;
+    color: white;
+    opacity: 0.8;
+}
+
+.cv-button:active,
+.explore-button:active {
+    box-shadow: inset 3px 5px 5px rgba(0,0,0,0.5);
+}
+
+.home-right .person-pic {
+    height: 40.625rem;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-right .person-pic:hover {
+    transform: scale(1.03);
+}
+
+
+@media (max-width: 1480px) {
+    .home-right .person-pic {
+        height: 34.375rem;
+    }
+}
+
+
+@media (max-width: 970px) {
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .home-right .person-pic {
+        height: 25rem;
+    }
+>>>>>>> bd5c0b0f27c35ba8032e6b8ba2f498653f5d9e88
 }

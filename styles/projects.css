@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .projects {
     padding-top: 120px;
     padding-left: 20px;
@@ -74,4 +75,82 @@
     font-size: 0.8rem;
     border-radius: 12px;
     color: #333;
+=======
+.projects {
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 1000px;
+}
+  
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+  
+.section-title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+  
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #f8f5c5;
+    border-radius: 20px;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25), 0 1px 1px rgba(0, 0, 0, 0.22);
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card a {
+    color: black;
+    text-decoration: none;
+}
+  
+.project-image {
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+  
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+  
+.project-description {
+    font-size: 0.95rem;
+    color: #555;
+}
+  
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+  
+.tech-tags span {
+    background-color: #BDB96A;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    color: #333;
+>>>>>>> bd5c0b0f27c35ba8032e6b8ba2f498653f5d9e88
 }
